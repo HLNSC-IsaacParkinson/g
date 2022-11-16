@@ -1,0 +1,31 @@
+name = input("Please enter your full name:")
+address = input("Please enter your address:")
+
+while True:
+    pnumber = input("Please enter your phone number:")
+    if :
+        break
+    else:
+        print("Incorrect Phone Number")
+        continue
+
+while True:
+    lwidth = input("Please enter your lawn width (Minimum 2, Maximum 30):")
+    if isinstance(lwidth, float):
+        if 30 < lwidth > 2:
+            continue
+        else:
+            print("Incorrect Size")
+    else:
+        print("Width must be a number")
+
+llength = float(input("Please enter your lawn length:"))
+qcare = input("Do you want quality lawn care? yes/no:")
+
+
+
+
+
+print("Customer Name:",name,"\nCustomer Address:",address,"\nCustomer Mobile:"
+,pnumber,"\nLawn Width:",lwidth,"\nLawn Length",llength,"\nTotal Area = "
+,round(lwidth * llength, 2),)
